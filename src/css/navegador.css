@@ -1,0 +1,55 @@
+.container-nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+  background-color: #515050;
+}
+
+/* Estilos para la ventana del navegador */
+.browser-window {
+  width: 100%;
+  max-width: 800px;
+  /* background-color: #ffffff; */
+  background-color: #333;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+/* Estilos para la barra superior (simulando la barra de direcciones) */
+.address-bar {
+  /* background-color: #f8f8f8; */
+  background-color: #444;
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para los botones de control (minimizar, maximizar, cerrar) */
+.control-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.control-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ff5f57;
+}
+.yellow {
+  background-color: #ffbd2e;
+}
+.green {
+  background-color: #28c940;
+}
